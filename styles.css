@@ -1,3 +1,50 @@
 #portfoliophoto {
-    height: 200px;
+    height: 300px;
+    border-radius: 50%;
+    display:block;
+}
+#top {
+    flex-wrap: wrap;
+    display:flex;
+    justify-content: center;
+}
+#top p {
+    flex: 0 0 100%;
+}
+#top h1 {
+    flex: 0 0 100%;
+}
+body{
+    text-align: center;
+}
+li {
+    list-style-type: none;
+}
+table {
+    margin:auto;
+    text-align:center;
+}
+#skills {
+    display:inline-flex;
+}
+article.skillscol {
+    flex-basis: 50%;
+    border: 1px red dashed;
+}
+article.skillscol > tr{
+    padding:0px;
+}
+aside.skillscol {
+    flex-basis: 50%;
+    border: 1px red dashed;
+    padding-left: 0px;
+}
+#skillslisttable {
+    text-align: left;
+}
+#skillslisttable td {
+    vertical-align: top;
+}
+.pastclasses td:first-child {
+    text-align: left;
 }
