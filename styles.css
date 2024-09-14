@@ -7,6 +7,7 @@
     flex-wrap: wrap;
     display:flex;
     justify-content: center;
+    background-color: #55679c;
 }
 #top p {
     flex: 0 0 100%;
@@ -47,4 +48,23 @@ aside.skillscol {
 }
 .pastclasses td:first-child {
     text-align: left;
+}
+.skillbox {
+    background-color: #E1D7B7;
+}
+h3.skillbox {
+    margin: 0px;
+    padding:18.72px;
+}
+.currclasses {
+    background-color: #1E2A5E;
+}
+.awards {
+    background-color:#7C93C3;
+}
+.pastclasses {
+    background-color: #55679c;
+}
+footer {
+    background-color: #1E2A5E;
 }
