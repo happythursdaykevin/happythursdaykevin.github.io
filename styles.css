@@ -15,8 +15,19 @@
 #top h1 {
     flex: 0 0 100%;
 }
+a {
+    color:#E1D7B7;
+}
+a:hover {
+    color:#cfbf8c;
+}
 body{
     text-align: center;
+    width:80%;
+    margin:auto;
+    background-color: #bde0eb;
+    color:#000040;
+    font-family: 'Quicksand', sans-serif;
 }
 li {
     list-style-type: none;
@@ -27,18 +38,27 @@ table {
 }
 #skills {
     display:inline-flex;
+    padding-right:30%;
+    padding-left:30%;
 }
 article.skillscol {
     flex-basis: 50%;
-    border: 1px red dashed;
+    border-right: 2px #cfbf8c solid;
+    border-left: 4px #cfbf8c solid;
+    margin-bottom: 18.72px;
 }
 article.skillscol > tr{
     padding:0px;
 }
 aside.skillscol {
     flex-basis: 50%;
-    border: 1px red dashed;
-    padding-left: 0px;
+    padding-left: 5px;
+    border-left: 2px #cfbf8c solid;
+    border-right: 4px #cfbf8c solid;
+    margin-bottom: 18.72px;
+}
+aside.skillscol span {
+    font-weight: bold;
 }
 #skillslisttable {
     text-align: left;
@@ -52,12 +72,9 @@ aside.skillscol {
 .skillbox {
     background-color: #E1D7B7;
 }
-h3.skillbox {
-    margin: 0px;
-    padding:18.72px;
-}
 .currclasses {
     background-color: #1E2A5E;
+    color:antiquewhite;
 }
 .awards {
     background-color:#7C93C3;
@@ -67,4 +84,40 @@ h3.skillbox {
 }
 footer {
     background-color: #1E2A5E;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size:16pt;
+    color:antiquewhite;
+}
+.footlinks {
+    color:antiquewhite;
+}
+ul {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin: 0px;
+}
+h3 {
+    margin: 0px;
+    padding-top:18.72px;
+    padding-bottom:18.72px;
+    text-decoration: underline;
+}
+h3.awards, h3.currclasses {
+    padding-bottom: 5px;
+}
+ul.awards, ul.currclasses {
+    padding-top:0px;
+    padding-bottom: 23.72px;
+}
+table.pastclasses {
+    padding-left:35%;
+    padding-right: 35%;
+}
+.pastclasses, .currclasses{
+    font-family: 'JetBrains Mono', sans-serif;
+}
+h6 {
+    margin-top:0px;
+    margin-bottom:0px;
 }
