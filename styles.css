@@ -50,7 +50,7 @@ article.skillscol {
 article.skillscol > tr{
     padding:0px;
 }
-aside.skillscol {
+article ~ aside {
     flex-basis: 50%;
     padding-left: 5px;
     border-left: 2px #cfbf8c solid;
