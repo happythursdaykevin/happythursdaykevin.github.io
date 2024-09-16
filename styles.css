@@ -23,7 +23,7 @@ a:hover {
 }
 body{
     text-align: center;
-    width:80%;
+    width:70%;
     margin:auto;
     background-color: #bde0eb;
     color:#000040;
@@ -116,8 +116,4 @@ table.pastclasses {
 }
 .pastclasses, .currclasses{
     font-family: 'JetBrains Mono', sans-serif;
-}
-h6 {
-    margin-top:0px;
-    margin-bottom:0px;
 }
